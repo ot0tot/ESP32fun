@@ -1,0 +1,625 @@
+{
+  "examples/adc_dma": {
+    "chips": [
+      "esp32c3"
+    ],
+    "description": "ADC1 GPIO0, 100 timer-paced DMA samples, uncalibrated raw min/max/mean."
+  },
+  "examples/aes": {
+    "chips": [
+      "esp32c3"
+    ],
+    "description": "C3 hardware AES-128 ECB encryption/decryption using the FIPS-197 known-answer vector; not a cryptographic application."
+  },
+  "examples/app_without_flash": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "ROM serial RAM loading; reset restores the flash program."
+  },
+  "examples/blink": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "External LED on GPIO4, 500 ms high / 500 ms low."
+  },
+  "examples/blink_raw": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "GPIO4 blink using GPIO W1TS/W1TC register writes."
+  },
+  "examples/branchless_gpio_lib": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "GPIO4 blink using arithmetic register selection."
+  },
+  "examples/breathe": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Quadratic pulse-density breathing algorithm; GPIO4, no hardware PWM."
+  },
+  "examples/button_uart": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Active-low button on GPIO2 with internal pullup; sends successive characters while held."
+  },
+  "examples/console_echo": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Periodic hello counter and receive echo using polling ROM UART0."
+  },
+  "examples/console_minimal": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "ROM console hello and empty polling loop."
+  },
+  "examples/constructors": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Two constructor priorities execute before main; reports constructor count."
+  },
+  "examples/cpp_virtual_methods": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Global C++ object construction and virtual dispatch; no heap, exceptions or RTTI."
+  },
+  "examples/crc_test": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Software reflected CRC32 known-answer test of 123456789, expected cbf43926."
+  },
+  "examples/debugprintfdemo": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "GPIO4/5 activity with bidirectional ROM console output and input."
+  },
+  "examples/direct_gpio": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Separate W1TS/W1TC writes and output read-modify-write; 950/50 ms three-pin pattern."
+  },
+  "examples/dma_gpio": {
+    "chips": [
+      "esp32s3"
+    ],
+    "description": "Eight GPIO parallel byte patterns via LCD_CAM/GDMA at 5 MSamples/s; finite bursts."
+  },
+  "examples/dma_gpio_mem2mem": {
+    "chips": [
+      "esp32s3"
+    ],
+    "description": "Eight parallel GPIOs alternate 0x55/0xaa and zero frames via LCD_CAM/GDMA; finite bursts."
+  },
+  "examples/dma_gpio_ws2812": {
+    "chips": [
+      "esp32s3",
+      "esp32c3"
+    ],
+    "description": "24 WS2812 pixels on MOSI using GDMA/SPI serialization, .4/.8 us high pulses and 320 us reset."
+  },
+  "examples/dma_mem2mem": {
+    "chips": [
+      "esp32s3",
+      "esp32c3"
+    ],
+    "description": "8192-byte real GDMA SRAM-to-SRAM copy across three descriptors, byte-for-byte verification."
+  },
+  "examples/dma_scheduled_io": {
+    "chips": [
+      "esp32s3",
+      "esp32c3"
+    ],
+    "description": "GDMA/SPI single-output 1 MHz scheduled waveform; no arbitrary register scheduling."
+  },
+  "examples/dma_spi": {
+    "chips": [
+      "esp32s3",
+      "esp32c3"
+    ],
+    "description": "SPI2 mode-0 TX via GDMA, eight bytes, software CS held until SPI TRANS_DONE."
+  },
+  "examples/dma_spi_loopback": {
+    "chips": [
+      "esp32s3",
+      "esp32c3"
+    ],
+    "description": "512-byte full-duplex SPI2/GDMA loopback with two linked TX and RX descriptors."
+  },
+  "examples/ds18b20": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Single externally-powered DS18B20, presence check, conversion, scratchpad CRC and signed temperature; no parasite power."
+  },
+  "examples/function_in_ram": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "All code resides in SRAM. Demonstrates a noinline RAM function and prints its address."
+  },
+  "examples/hc595_demo": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "74HC595 walking LED via software SPI. /OE low and /SRCLR high; no hardware SPI."
+  },
+  "examples/hello": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Startup data/BSS check and periodic ROM console hello."
+  },
+  "examples/i2c_bh1750_scan": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Software I2C scan and BH1750 lux measurements with corrected scaling."
+  },
+  "examples/i2c_bh1750_sht31": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "BH1750 lux and SHT31 temperature/humidity with CRC checks; software I2C."
+  },
+  "examples/i2c_hw_master": {
+    "chips": [
+      "esp32",
+      "esp32c3"
+    ],
+    "description": "Polling hardware I2C0 master, 100/400 kHz, probes, FIFO boundaries and repeated START."
+  },
+  "examples/i2c_oled": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "SSD1306 128x32 graphics, bitmap and scaled-text demo using software I2C and external pullups."
+  },
+  "examples/i2c_register_target": {
+    "chips": [
+      "esp32",
+      "esp32c3"
+    ],
+    "description": "Polling hardware I2C0 target at address 0x42 with a writable 256-byte register window."
+  },
+  "examples/pwm_complementary": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3"
+    ],
+    "description": "LEDC triangle ramp and complementary brightness ramp on GPIO4/5."
+  },
+  "examples/pwm_fixed": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3"
+    ],
+    "description": "Hardware LEDC 1 kHz / 50% waveform on GPIO4."
+  },
+  "examples/pwm_percent_sweep": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3"
+    ],
+    "description": "LEDC GPIO4 brightness ramp in percent; four fractional duty bits, 8-bit period."
+  },
+  "examples/pwm_phase_shift": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3"
+    ],
+    "description": "Two GPIO4/5 LEDC outputs at 1 kHz, with a duty sweep and 180-degree HPOINT phase offset."
+  },
+  "examples/pwm_pin_routing": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3"
+    ],
+    "description": "LEDC output routed through GPIO matrix; PWM_PIN defaults to GPIO5."
+  },
+  "examples/pwm_sweep_channels_0_1": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3"
+    ],
+    "description": "LEDC channels 0/1 on GPIO4/5; two duty ramps offset by half a ramp cycle."
+  },
+  "examples/pwm_sweep_channels_0_3": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3"
+    ],
+    "description": "LEDC channels 0/3 on GPIO4/5; two duty ramps offset by half a ramp cycle."
+  },
+  "examples/pwm_triangle": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3"
+    ],
+    "description": "LEDC channel 3 triangle brightness sweep on GPIO4."
+  },
+  "examples/random_numbers": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Deterministic strength-2 LFSR and known sequence; not an entropy source."
+  },
+  "examples/rmt_dma_capture": {
+    "chips": [
+      "esp32s3"
+    ],
+    "description": "RMT channel7/GDMA captures finite pulse-duration blocks at 1 us resolution."
+  },
+  "examples/rmt_dma_pwm_input": {
+    "chips": [
+      "esp32s3"
+    ],
+    "description": "RMT/GDMA PWM frequency and duty capture; GPIO4 test output wired to GPIO5 input."
+  },
+  "examples/self_modify_code": {
+    "chips": [
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "RISC-V CSR instruction changed via SRAM data alias then fence.i; restored afterward. Xtensa has no matching instruction."
+  },
+  "examples/spi_24L01_rx": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "nRF24L01 pipe-zero fixed 4-byte counter packets, channel 76, auto-ACK, 1 Mbps; software SPI."
+  },
+  "examples/spi_24L01_tx": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "nRF24L01 pipe-zero fixed 4-byte counter packets, channel 76, auto-ACK, 1 Mbps; software SPI."
+  },
+  "examples/spi_lora_sx127x": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "SX1276/77/78/79 bidirectional LoRa counter packets via polling software SPI; default 915 MHz, SF7, BW125, CR4/5 and CRC."
+  },
+  "examples/spi_max7219": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Single-display animations and Code-B/segment font modes using software SPI."
+  },
+  "examples/spi_oled": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "SSD1306 128x64 Conway life via software SPI, with toroidal boundaries and a xorshift seed."
+  },
+  "examples/struct_direct_gpio": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Constructed register bitfield values, one full W1TS/W1TC write; three-pin 950/50 ms pattern."
+  },
+  "examples/struct_gpio": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "GPIO register-bank struct, atomic set/clear writes, GPIO4 blink."
+  },
+  "examples/template": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "Empty polling application; startup and main return behavior supplied by the runtime."
+  },
+  "examples/uart_dma_echo": {
+    "chips": [
+      "esp32",
+      "esp32c3"
+    ],
+    "description": "Finite idle-delimited UART1/UHCI RX DMA followed by DMA echo; gaps between packets."
+  },
+  "examples/uart_dma_rx_ring": {
+    "chips": [
+      "esp32",
+      "esp32c3"
+    ],
+    "description": "Four-block UHCI/GDMA RX ring with descriptor ownership and explicit overrun stop."
+  },
+  "examples/uart_dma_tx": {
+    "chips": [
+      "esp32",
+      "esp32c3"
+    ],
+    "description": "Real UART1 TX DMA through UHCI0; raw 115200 8N1, no header or escaping."
+  },
+  "examples/uartdemo": {
+    "chips": [
+      "esp32",
+      "esp32s2",
+      "esp32s3",
+      "esp32c2",
+      "esp32c3",
+      "esp32c6",
+      "esp32h2",
+      "esp32p4",
+      "esp32c5"
+    ],
+    "description": "GPIO4 50/50 ms blink and counter on ROM console, with polling receive echo."
+  },
+  "examples/waveshare_c6_lcd": {
+    "chips": [
+      "esp32c6"
+    ],
+    "description": "Waveshare C6 onboard ST7789 color bars and RGB LED, polling SPI/cycle timing; 25% backlight."
+  }
+}

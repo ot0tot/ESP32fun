@@ -1,0 +1,47 @@
+name: Build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        chip: [esp32, esp32s2, esp32s3, esp32c2, esp32c3, esp32c5, esp32c6, esp32h2, esp32p4]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/cache@v4
+        with:
+          path: .tools
+          key: tools-${{ runner.os }}-${{ runner.arch }}-${{ matrix.chip }}-${{ hashFiles('tools/toolchains.json') }}
+      - run: python tools/setup.py --chip ${{ matrix.chip }}
+      - run: .venv/bin/python tools/check_examples.py --chip ${{ matrix.chip }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: images-${{ matrix.chip }}
+          path: build/checks/
+  host:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/cache@v4
+        with:
+          path: .tools
+          key: tools-${{ runner.os }}-${{ runner.arch }}-host-${{ hashFiles('tools/toolchains.json') }}
+      - run: python tools/setup.py --all
+      - run: .venv/bin/python -m unittest discover -s tests -v
+      - run: .venv/bin/python tools/check_release.py
+      - run: .venv/bin/python tools/check_licenses.py
+      - run: .venv/bin/python tools/capabilities.py --check

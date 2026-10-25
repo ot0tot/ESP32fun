@@ -1,0 +1,123 @@
+{
+  "commit": "6b247c7c10f1a96c1f0117edc47a695e9b0ab538",
+  "files": [
+    {
+      "path": "examples/breathe/main.c",
+      "upstream": "examples/breathe/breathe.c",
+      "upstream_sha256": "195f508a700c7660f13d43c159eb0371081dc31cc4359b941a36fe71f5b83701",
+      "license": "MIT",
+      "notice": "/*\n * MIT License\n *\n * Copyright (c) 2023-2024 CNLohr <lohr85@gmail.com>, et. al.\n * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.\n * Copyright (c) 2023-2024 E. Brombaugh\n * Copyright (c) 2023-2024 A. Mandera\n * Copyright (c) 2005-2020 Rich Felker, et al.\n * Copyright (c) 2013,2014 Michal Ludvig <michal@logix.cz>\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */",
+      "original_header": null
+    },
+    {
+      "path": "examples/random_numbers/main.c",
+      "upstream": "examples/random_numbers/random_numbers.c",
+      "upstream_sha256": "8062bedb94048e6b8b0960b8aed2a88e8e9c69539673f7e10a745f41141760a7",
+      "license": "MIT",
+      "notice": "/******************************************************************************\n* Psuedo Random Number Generator using a Linear Feedback Shift Register\n* - Demo Program\n* See the GitHub for more information:\n* https://github.com/ADBeta/CH32V003_lib_rand\n*\n* Ver 2.0    09 Sep 2024\n*\n* Released under the MIT Licence\n* Copyright ADBeta (c) 2024\n*\n* Permission is hereby granted, free of charge, to any person obtaining a copy\n* of this software and associated documentation files (the \"Software\"), to\n* deal in the Software without restriction, including without limitation the\n* rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\n* sell copies of the Software, and to permit persons to whom the Software is\n* furnished to do so, subject to the following conditions:\n* The above copyright notice and this permission notice shall be included in\n* all copies or substantial portions of the Software.\n*\n* THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n* EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n* MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n* IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\n* DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\n* OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE\n* USE OR OTHER DEALINGS IN THE SOFTWARE.\n******************************************************************************/",
+      "original_header": "/******************************************************************************\n* Psuedo Random Number Generator using a Linear Feedback Shift Register\n* - Demo Program\n* See the GitHub for more information:\n* https://github.com/ADBeta/CH32V003_lib_rand\n*\n* Ver 2.0    09 Sep 2024\n*\n* Released under the MIT Licence\n* Copyright ADBeta (c) 2024\n*\n* Permission is hereby granted, free of charge, to any person obtaining a copy\n* of this software and associated documentation files (the \"Software\"), to\n* deal in the Software without restriction, including without limitation the\n* rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\n* sell copies of the Software, and to permit persons to whom the Software is\n* furnished to do so, subject to the following conditions:\n* The above copyright notice and this permission notice shall be included in\n* all copies or substantial portions of the Software.\n*\n* THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n* EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n* MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n* IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\n* DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\n* OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE\n* USE OR OTHER DEALINGS IN THE SOFTWARE.\n******************************************************************************/"
+    },
+    {
+      "path": "examples/i2c_oled/main.c",
+      "upstream": "examples/i2c_oled/i2c_oled.c",
+      "upstream_sha256": "12966b6d70b472ada6ba095b372c27de57b2390f79a645da757faebfae59e90a",
+      "license": "MIT",
+      "notice": "/*\n * MIT License\n *\n * Copyright (c) 2023-2024 CNLohr <lohr85@gmail.com>, et. al.\n * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.\n * Copyright (c) 2023-2024 E. Brombaugh\n * Copyright (c) 2023-2024 A. Mandera\n * Copyright (c) 2005-2020 Rich Felker, et al.\n * Copyright (c) 2013,2014 Michal Ludvig <michal@logix.cz>\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */",
+      "original_header": null
+    },
+    {
+      "path": "examples/i2c_oled/ssd1306.h",
+      "upstream": "extralibs/ssd1306.h",
+      "upstream_sha256": "0bcb4f7b4dba371e8875c4e1f3ee0003c9f1e39c0f0c2663ba53a8f3822c2c47",
+      "license": "MIT",
+      "notice": "/*\n * MIT License\n *\n * Copyright (c) 2023-2024 CNLohr <lohr85@gmail.com>, et. al.\n * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.\n * Copyright (c) 2023-2024 E. Brombaugh\n * Copyright (c) 2023-2024 A. Mandera\n * Copyright (c) 2005-2020 Rich Felker, et al.\n * Copyright (c) 2013,2014 Michal Ludvig <michal@logix.cz>\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */",
+      "original_header": null
+    },
+    {
+      "path": "examples/i2c_oled/font_8x8.h",
+      "upstream": "extralibs/font_8x8.h",
+      "upstream_sha256": "d018559afb90cabc243c9d7dd6a519aad2ec72a754195d0fcaf6325397fde110",
+      "license": "MIT",
+      "notice": "/*\n * MIT License\n *\n * Copyright (c) 2023-2024 CNLohr <lohr85@gmail.com>, et. al.\n * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.\n * Copyright (c) 2023-2024 E. Brombaugh\n * Copyright (c) 2023-2024 A. Mandera\n * Copyright (c) 2005-2020 Rich Felker, et al.\n * Copyright (c) 2013,2014 Michal Ludvig <michal@logix.cz>\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */",
+      "original_header": null
+    },
+    {
+      "path": "examples/i2c_oled/bomb.h",
+      "upstream": "examples/i2c_oled/bomb.h",
+      "upstream_sha256": "129eda5917fbd41b8542322fe5342e0228de3a8b9a865ad64f101e0c1d26eb60",
+      "license": "MIT",
+      "notice": "/*\n * MIT License\n *\n * Copyright (c) 2023-2024 CNLohr <lohr85@gmail.com>, et. al.\n * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.\n * Copyright (c) 2023-2024 E. Brombaugh\n * Copyright (c) 2023-2024 A. Mandera\n * Copyright (c) 2005-2020 Rich Felker, et al.\n * Copyright (c) 2013,2014 Michal Ludvig <michal@logix.cz>\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */",
+      "original_header": null
+    },
+    {
+      "path": "examples/spi_max7219/main.c",
+      "upstream": "examples/spi_max7219/spi_max7219.c",
+      "upstream_sha256": "6025f2bf14bb1b2ee0c0e23bbbda4f84bfbe7198092f0b09ab950beae7fa535b",
+      "license": "MIT",
+      "notice": "/*\n * MIT License\n *\n * Copyright (c) 2023-2024 CNLohr <lohr85@gmail.com>, et. al.\n * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.\n * Copyright (c) 2023-2024 E. Brombaugh\n * Copyright (c) 2023-2024 A. Mandera\n * Copyright (c) 2005-2020 Rich Felker, et al.\n * Copyright (c) 2013,2014 Michal Ludvig <michal@logix.cz>\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */",
+      "original_header": null
+    },
+    {
+      "path": "examples/spi_max7219/max7219_spi_driver.h",
+      "upstream": "examples/spi_max7219/max7219_spi_driver.h",
+      "upstream_sha256": "328daead0ea8255aea5b06590a59fd3bc04657bfaebb94f725381abb74bcf353",
+      "license": "MIT",
+      "notice": "/*\n * MIT License\n *\n * Copyright (c) 2023-2024 CNLohr <lohr85@gmail.com>, et. al.\n * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.\n * Copyright (c) 2023-2024 E. Brombaugh\n * Copyright (c) 2023-2024 A. Mandera\n * Copyright (c) 2005-2020 Rich Felker, et al.\n * Copyright (c) 2013,2014 Michal Ludvig <michal@logix.cz>\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */",
+      "original_header": null
+    },
+    {
+      "path": "examples/spi_max7219/max7219_spi_driver_extended.h",
+      "upstream": "examples/spi_max7219/max7219_spi_driver_extended.h",
+      "upstream_sha256": "9ea1416e56619afd34cf624893c716402863d4ab8a69ed1c7150a61776247e1b",
+      "license": "MIT",
+      "notice": "/*\n * MIT License\n *\n * Copyright (c) 2023-2024 CNLohr <lohr85@gmail.com>, et. al.\n * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.\n * Copyright (c) 2023-2024 E. Brombaugh\n * Copyright (c) 2023-2024 A. Mandera\n * Copyright (c) 2005-2020 Rich Felker, et al.\n * Copyright (c) 2013,2014 Michal Ludvig <michal@logix.cz>\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */",
+      "original_header": null
+    },
+    {
+      "path": "examples/dma_spi/main.c",
+      "upstream": "examples/dma_spi/dma_spi.c",
+      "upstream_sha256": "10654c88fa2cf7a9d4aaa59d647789e50c157c22ca6681834489668d1a9ea45a",
+      "license": "MIT",
+      "notice": "/*\nSPI DMA example with software NSS\nBased on cnlohr's example for the CH32V203\nAuthor: Fredrik Saevland (fsaev)\n\t\thttps://github.com/fsaev\n\nMIT License\n\nCopyright (c) 2024 Fredrik Saevland\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/",
+      "original_header": "/*\nSPI DMA example with software NSS\nBased on cnlohr's example for the CH32V203\nAuthor: Fredrik Saevland (fsaev)\n\t\thttps://github.com/fsaev\n\nMIT License\n\nCopyright (c) 2024 Fredrik Saevland\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/"
+    },
+    {
+      "path": "esp32fun/fun_adc_dma.h",
+      "origin": "esp-idf",
+      "upstream": "components/hal/esp32c3/include/hal/adc_ll.h",
+      "upstream_commit": "c8fc5f643b7a7b0d3b182d3df610844e3dc9bd74",
+      "upstream_sha256": "95a9438148c28b54973a26188a0b580c4297daeeaed85174a67ac407d439c6a4",
+      "license": "Apache-2.0",
+      "notice": "/*\n * SPDX-FileCopyrightText: 2015-2024 Espressif Systems (Shanghai) CO LTD\n *\n * SPDX-License-Identifier: Apache-2.0\n */",
+      "original_header": "/*\n * SPDX-FileCopyrightText: 2015-2024 Espressif Systems (Shanghai) CO LTD\n *\n * SPDX-License-Identifier: Apache-2.0\n */"
+    },
+    {
+      "path": "esp32fun/fun_usb_console.h",
+      "origin": "esp-idf",
+      "upstream": "components/esp_rom/patches/esp_rom_sys.c",
+      "upstream_commit": "c8fc5f643b7a7b0d3b182d3df610844e3dc9bd74",
+      "upstream_sha256": "6b924cf54856443ade84013d0f5b13c906c58a352b0a9f3273830ed18358fa4f",
+      "license": "Apache-2.0",
+      "notice": "/*\r\n * SPDX-FileCopyrightText: 2010-2023 Espressif Systems (Shanghai) CO LTD\r\n *\r\n * SPDX-License-Identifier: Apache-2.0\r\n */",
+      "original_header": "/*\r\n * SPDX-FileCopyrightText: 2010-2023 Espressif Systems (Shanghai) CO LTD\r\n *\r\n * SPDX-License-Identifier: Apache-2.0\r\n */"
+    },
+    {
+      "path": "esp32fun/fun_i2c_hw.h",
+      "origin": "esp-idf",
+      "upstream": "components/hal/esp32/include/hal/i2c_ll.h",
+      "upstream_sha256": "530380c837bbe8a85bb4dbc1fe2a8a1b4fec282b79933fe88de9f65d4d2489b0",
+      "original_header": "/*\r\n * SPDX-FileCopyrightText: 2015-2024 Espressif Systems (Shanghai) CO LTD\r\n *\r\n * SPDX-License-Identifier: Apache-2.0\r\n */",
+      "upstream_commit": "c8fc5f643b7a7b0d3b182d3df610844e3dc9bd74",
+      "license": "Apache-2.0",
+      "notice": "/*\r\n * SPDX-FileCopyrightText: 2015-2024 Espressif Systems (Shanghai) CO LTD\r\n *\r\n * SPDX-License-Identifier: Apache-2.0\r\n */",
+      "related_sources": [
+        {
+          "upstream": "components/hal/esp32c3/include/hal/i2c_ll.h",
+          "upstream_sha256": "13e49a2632d006c2df754aa6c8180df02dfb8314df7b64e3606245364341820f",
+          "original_header": "/*\r\n * SPDX-FileCopyrightText: 2020-2024 Espressif Systems (Shanghai) CO LTD\r\n *\r\n * SPDX-License-Identifier: Apache-2.0\r\n */"
+        }
+      ],
+      "adaptation": "Master timing calculations; command/FIFO driver is original ESP32fun code."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.venv/
+.tools/
+build/
+__pycache__/
+*.pyc
+*.o
+*.obj
+.env
+.env.*

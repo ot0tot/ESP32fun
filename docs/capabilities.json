@@ -1,0 +1,416 @@
+{
+  "scope": "Header-gate preprocessing only; input hashes use canonical LF text. Not hardware validation.",
+  "inputs": {
+    "esp32fun/targets/profiles.json": "ec91faba337b3364d03a3fc6ca43fbfb305a75c564f8dc29c9515c5d59e636cf",
+    "tools/capabilities.py": "b2e92c6e42eac4ac05439e11238ba2539d153d1e4deba480af0a7df9fb34bfc3",
+    "esp32fun/esp32fun.h": "ed1638aceae64cbd52ed02f9020fd16dcd37e0d5e4a02461ed1aa1fce064be25",
+    "esp32fun/fun_adc_dma.h": "4f14cde3fbc76212331c32435520eb1aae16da20de7955c4ebd5cacb0974cdb5",
+    "esp32fun/fun_aes.h": "f11e8c88eb574579d0177102277e3187abd05680cc3b65486074cc6b78e82e24",
+    "esp32fun/fun_board.h": "194ce347458eb152cde0748d59540f345c8a66a46bb169009f39a981dd22eb01",
+    "esp32fun/fun_bus.h": "f730698a8d9402af430f94501743fce0be9e50e109ed726dc3e8dd093692b37f",
+    "esp32fun/fun_clock_esp32.h": "ef531214b7e4ea41e30d68a257498709e256910cbd2badba57638dd6fc2d4805",
+    "esp32fun/fun_dma.h": "6f398f0b913a305fb0ed1b48b69b1f7bb58e54b7aa9e50357cdea72b24d0f7ef",
+    "esp32fun/fun_dma_buffer.h": "98739f21e389e4c60931ff5d80f762a7c08ba5e63143f2c1abea7fd714cb18f2",
+    "esp32fun/fun_i2c_errors.h": "4d153a570b02ffb7759954e072be5ab6f2fff21bf06ecfd87301e7b7a41284d7",
+    "esp32fun/fun_i2c_hw.h": "5b11f8b5526cf6697d5b25e76abb6f7e217c580237eb8ece9390e6aa18066577",
+    "esp32fun/fun_lcd_dma.h": "9d51812ffaeca4b7983b8c1ab0986d49e90a3cbf4b34647c2e25e3dfe7403417",
+    "esp32fun/fun_pwm.h": "a8d1185ca11486ae8e82c60766ceaf1b79c31a2abd47e92a13ff32ea27c692ef",
+    "esp32fun/fun_rmt_dma.h": "84bea577b0481b57be97541af4d666781fe3dbc8ca9dfe5fc4f62f29975e8656",
+    "esp32fun/fun_rmt_dma_status.h": "e00e4a66090fa1ceb1766771ac0fe732e228beed31b89a5bfa20011a4c2b3305",
+    "esp32fun/fun_uart_dma.h": "210e193f8c98bf34e9e73ec747dc04e852c2fd6083849f2584b5ce95ac91aeab",
+    "esp32fun/fun_uart_errors.h": "1e35156a52d72bfb18b128475cff5117d47fade2b6ca3c1f641010256d287c8b",
+    "esp32fun/fun_uart_udma_esp32.h": "6333762c8ce11ce3421fddbeddf01a2fb300e3d06f8675a19ff52fdf1ed5f3e0",
+    "esp32fun/fun_usb_console.h": "1d56322e4bb8a138eef6d0d66f20df052909675b64f519d46a7d88e4edd084d2",
+    "esp32fun/targets/esp32.h": "71ab907e68737b2864ce334be0d57820b21bc06b9abd91098b5f01865aba4613",
+    "esp32fun/targets/esp32c2.h": "64cf465ad9646ab4a7f9d25f3308e7908c2804e3bf5bddb3d10ad2ab6847c08d",
+    "esp32fun/targets/esp32c3.h": "8c06210df3710955bb226920c3db4405d1d27998c804670c700f798398825327",
+    "esp32fun/targets/esp32c5.h": "415180219d2b0bfd3b2e6018294babd18224a08ecff70b134a132cc5beb27fda",
+    "esp32fun/targets/esp32c6.h": "cd7164bfe6b210d0ac2e195ee2348cff4fd509c97451a9ce41dcac92b271a4e8",
+    "esp32fun/targets/esp32h2.h": "d311023040baaeb5642a512ad8443af3cb619a850c5057aca388cfd23957c2ed",
+    "esp32fun/targets/esp32p4.h": "999ddac917836d679aec076a7614e3ee922ba7d2ba8df87389707d27fc1b48c3",
+    "esp32fun/targets/esp32s2.h": "f46ba7229bb7e634cde7ce02ce609b705eb8a7643bb8a2bafd6e1a05a8e28f84",
+    "esp32fun/targets/esp32s3.h": "d471782e9d879733ea06a86772d9c8323d7cb8ca5747b98bdc1225f993f5eb81"
+  },
+  "drivers": {
+    "GPIO, delay, ROM console": {
+      "esp32": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32s2": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32s3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c2": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c6": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32h2": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32p4": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c5": {
+        "source_supported": true,
+        "reason": ""
+      }
+    },
+    "Software SPI/I2C": {
+      "esp32": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32s2": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32s3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c2": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c6": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32h2": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32p4": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c5": {
+        "source_supported": true,
+        "reason": ""
+      }
+    },
+    "LEDC PWM": {
+      "esp32": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32s2": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32s3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c2": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c6": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_pwm.h:7:2: error: #error \"This LEDC register driver supports ESP32/S2/S3/C2/C3; gamma-layout chips need a separate driver\"; 7 | #error \"This LEDC register driver supports ESP32/S2/S3/C2/C3; gamma-layout chips need a separate driver\""
+      },
+      "esp32h2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_pwm.h:7:2: error: #error \"This LEDC register driver supports ESP32/S2/S3/C2/C3; gamma-layout chips need a separate driver\"; 7 | #error \"This LEDC register driver supports ESP32/S2/S3/C2/C3; gamma-layout chips need a separate driver\""
+      },
+      "esp32p4": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_pwm.h:7:2: error: #error \"This LEDC register driver supports ESP32/S2/S3/C2/C3; gamma-layout chips need a separate driver\"; 7 | #error \"This LEDC register driver supports ESP32/S2/S3/C2/C3; gamma-layout chips need a separate driver\""
+      },
+      "esp32c5": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_pwm.h:7:2: error: #error \"This LEDC register driver supports ESP32/S2/S3/C2/C3; gamma-layout chips need a separate driver\"; 7 | #error \"This LEDC register driver supports ESP32/S2/S3/C2/C3; gamma-layout chips need a separate driver\""
+      }
+    },
+    "Hardware I2C": {
+      "esp32": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32s2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_i2c_hw.h:36:2: error: #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\"; 36 | #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\""
+      },
+      "esp32s3": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_i2c_hw.h:36:2: error: #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\"; 36 | #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\""
+      },
+      "esp32c2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_i2c_hw.h:36:2: error: #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\"; 36 | #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\""
+      },
+      "esp32c3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c6": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_i2c_hw.h:36:2: error: #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\"; 36 | #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\""
+      },
+      "esp32h2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_i2c_hw.h:36:2: error: #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\"; 36 | #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\""
+      },
+      "esp32p4": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_i2c_hw.h:36:2: error: #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\"; 36 | #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\""
+      },
+      "esp32c5": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_i2c_hw.h:36:2: error: #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\"; 36 | #error \"Hardware I2C currently implements classic ESP32 and ESP32-C3 only\""
+      }
+    },
+    "SPI GDMA": {
+      "esp32": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\""
+      },
+      "esp32s2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\""
+      },
+      "esp32s3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\""
+      },
+      "esp32c3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c6": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\""
+      },
+      "esp32h2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\""
+      },
+      "esp32p4": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\""
+      },
+      "esp32c5": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\""
+      }
+    },
+    "UART UHCI DMA": {
+      "esp32": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32s2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_uart_dma.h:13:2: error: #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\"; 13 | #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\""
+      },
+      "esp32s3": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_uart_dma.h:13:2: error: #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\"; 13 | #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\""
+      },
+      "esp32c2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_uart_dma.h:13:2: error: #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\"; 13 | #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\""
+      },
+      "esp32c3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c6": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_uart_dma.h:13:2: error: #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\"; 13 | #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\""
+      },
+      "esp32h2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_uart_dma.h:13:2: error: #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\"; 13 | #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\""
+      },
+      "esp32p4": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_uart_dma.h:13:2: error: #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\"; 13 | #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\""
+      },
+      "esp32c5": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_uart_dma.h:13:2: error: #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\"; 13 | #error \"UART/UHCI DMA currently supports ESP32-C3 and classic ESP32 only\""
+      }
+    },
+    "ADC DMA": {
+      "esp32": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_adc_dma.h:14:2: error: #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\"; 14 | #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32s2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_adc_dma.h:14:2: error: #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\"; 14 | #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32s3": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_adc_dma.h:14:2: error: #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\"; 14 | #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32c2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_adc_dma.h:14:2: error: #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\"; 14 | #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32c3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c6": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_adc_dma.h:14:2: error: #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\"; 14 | #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32h2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_adc_dma.h:14:2: error: #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\"; 14 | #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32p4": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_adc_dma.h:14:2: error: #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\"; 14 | #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32c5": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_adc_dma.h:14:2: error: #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\"; 14 | #error \"ADC DMA backend not implemented for this target; current register backend is ESP32-C3\""
+      }
+    },
+    "Parallel LCD GDMA": {
+      "esp32": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_lcd_dma.h:9:2: error: #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\"; 9 | #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\""
+      },
+      "esp32s2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_lcd_dma.h:9:2: error: #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\"; 9 | #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\""
+      },
+      "esp32s3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_lcd_dma.h:9:2: error: #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\"; 9 | #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\""
+      },
+      "esp32c3": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_lcd_dma.h:9:2: error: #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\"; 9 | #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\""
+      },
+      "esp32c6": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_lcd_dma.h:9:2: error: #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\"; 9 | #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\""
+      },
+      "esp32h2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_lcd_dma.h:9:2: error: #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\"; 9 | #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\""
+      },
+      "esp32p4": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_lcd_dma.h:9:2: error: #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\"; 9 | #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\""
+      },
+      "esp32c5": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_lcd_dma.h:9:2: error: #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\"; 9 | #error \"Parallel LCD/GDMA output currently supports ESP32-S3 only\""
+      }
+    },
+    "RMT RX GDMA": {
+      "esp32": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_rmt_dma.h:10:2: error: #error \"RMT DMA capture currently supports ESP32-S3 only\"; 10 | #error \"RMT DMA capture currently supports ESP32-S3 only\""
+      },
+      "esp32s2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_rmt_dma.h:10:2: error: #error \"RMT DMA capture currently supports ESP32-S3 only\"; 10 | #error \"RMT DMA capture currently supports ESP32-S3 only\""
+      },
+      "esp32s3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_rmt_dma.h:10:2: error: #error \"RMT DMA capture currently supports ESP32-S3 only\"; 10 | #error \"RMT DMA capture currently supports ESP32-S3 only\""
+      },
+      "esp32c3": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_rmt_dma.h:10:2: error: #error \"RMT DMA capture currently supports ESP32-S3 only\"; 10 | #error \"RMT DMA capture currently supports ESP32-S3 only\""
+      },
+      "esp32c6": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_rmt_dma.h:10:2: error: #error \"RMT DMA capture currently supports ESP32-S3 only\"; 10 | #error \"RMT DMA capture currently supports ESP32-S3 only\""
+      },
+      "esp32h2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_rmt_dma.h:10:2: error: #error \"RMT DMA capture currently supports ESP32-S3 only\"; 10 | #error \"RMT DMA capture currently supports ESP32-S3 only\""
+      },
+      "esp32p4": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_rmt_dma.h:10:2: error: #error \"RMT DMA capture currently supports ESP32-S3 only\"; 10 | #error \"RMT DMA capture currently supports ESP32-S3 only\""
+      },
+      "esp32c5": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_dma.h:10:2: error: #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; 10 | #error \"fun_dma.h currently supports ESP32-C3 and ESP32-S3 only\"; esp32fun/fun_dma_buffer.h:18:2: error: #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; 18 | #error \"DMA buffer contracts currently cover ESP32, C3 and S3 only\"; esp32fun/fun_rmt_dma.h:10:2: error: #error \"RMT DMA capture currently supports ESP32-S3 only\"; 10 | #error \"RMT DMA capture currently supports ESP32-S3 only\""
+      }
+    },
+    "AES block accelerator": {
+      "esp32": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_aes.h:6:2: error: #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\"; 6 | #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32s2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_aes.h:6:2: error: #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\"; 6 | #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32s3": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_aes.h:6:2: error: #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\"; 6 | #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32c2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_aes.h:6:2: error: #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\"; 6 | #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32c3": {
+        "source_supported": true,
+        "reason": ""
+      },
+      "esp32c6": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_aes.h:6:2: error: #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\"; 6 | #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32h2": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_aes.h:6:2: error: #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\"; 6 | #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32p4": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_aes.h:6:2: error: #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\"; 6 | #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\""
+      },
+      "esp32c5": {
+        "source_supported": false,
+        "reason": "esp32fun/fun_aes.h:6:2: error: #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\"; 6 | #error \"Polling AES backend not implemented for this target; current register backend is ESP32-C3\""
+      }
+    }
+  }
+}

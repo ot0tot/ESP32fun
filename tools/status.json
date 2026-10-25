@@ -1,0 +1,15 @@
+{
+  "policy": "Maintained distribution tools.",
+  "tools": {
+    "capabilities.py": "maintained",
+    "catalog.py": "maintained",
+    "check_examples.py": "maintained",
+    "check_images.py": "maintained",
+    "check_licenses.py": "maintained",
+    "check_release.py": "maintained",
+    "esp32fun.py": "maintained",
+    "import_idf_targets.py": "maintained",
+    "setup.py": "maintained",
+    "targets.py": "maintained"
+  }
+}
