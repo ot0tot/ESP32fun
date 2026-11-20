@@ -6,6 +6,11 @@ interrupts and enters a small C runtime. The runtime initializes BSS and C++
 constructors, disables boot watchdog modes and calls `main`. It provides no
 heap, scheduler, second-core startup or interrupt dispatcher.
 
+`esp32fun/startup_riscv.S` is shared by the RISC-V profiles;
+`esp32fun/startup_xtensa.S` serves the Xtensa profiles. The build selects the
+startup by architecture and supplies chip-specific definitions from the target
+header.
+
 `esp32fun/targets/profiles.json` and generated target headers carry numeric
 GPIO, watchdog, memory and ROM facts. The linker reserves an 8 KiB stack and
 asserts that static data and physical SRAM aliases do not overlap. Stack

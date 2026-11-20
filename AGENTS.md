@@ -32,7 +32,7 @@ does not require a connected board.
 | Location | Purpose |
 |---|---|
 | `esp32fun/esp32fun.h`, `esp32fun/esp32fun.c` | GPIO, delays, ROM console and common startup support |
-| `esp32fun/startup_esp32c3.S` | Shared RISC-V startup, despite the filename |
+| `esp32fun/startup_riscv.S` | Shared startup for RISC-V targets |
 | `esp32fun/startup_xtensa.S` | Xtensa startup and ROM exception-vector assumptions |
 | `esp32fun/fun_*.h` | Peripheral drivers and their buffer, timing and ownership contracts |
 | `esp32fun/targets/profiles.json`, `esp32fun/targets/*.h` | Per-chip memory, ROM symbols, GPIO and register facts |
