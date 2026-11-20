@@ -76,7 +76,7 @@ def build(args, project):
              "-I", str(RUNTIME), "-I", str(project)]
     flags += ["-D" + define for define in args.define]
     objects, commands = [], []
-    startup = "startup_xtensa.S" if target["architecture"] == "xtensa" else "startup_esp32c3.S"
+    startup = "startup_xtensa.S" if target["architecture"] == "xtensa" else "startup_riscv.S"
     all_sources = [RUNTIME / startup, RUNTIME / "esp32fun.c"] + sources
     for index, source in enumerate(all_sources):
         obj = out / f"{index}_{source.name}.o"

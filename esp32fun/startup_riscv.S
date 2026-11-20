@@ -1,4 +1,6 @@
 /* SPDX-License-Identifier: MIT */
+/* Shared startup for the RISC-V targets; chip-specific facts come from the
+ * selected target header. */
     .section .text.start,"ax",@progbits
     .global _start
     .type _start,@function
